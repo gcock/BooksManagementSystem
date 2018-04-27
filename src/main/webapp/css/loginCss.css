@@ -1,0 +1,147 @@
+body {
+	background-image: url(../image/loginbackground.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.it_s {
+	display: table;
+	border: 1px solid #979797
+}
+
+.it1, .it2 { :1px solid #fff;
+	background: #fff none repeat scroll 0 0
+}
+
+.it1 {
+	border: 1px solid #fff;
+}
+
+.it2 {
+	border-left: 1px solid #000;
+	border-top: 1px solid #000
+}
+
+#login_frame {
+	width: 400px;
+	height: 210px;
+	padding: 13px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -200px;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.label_color {
+	left: 37%;
+	top: 2%;
+	position: absolute;
+	font-size: 15px;
+	color: #ff0000;
+}
+
+form p>* {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#color{
+	left: 91%;
+	position: absolute;
+	color: #ff0000;	
+}
+
+#image_logo {
+	margin-top: 22px;
+}
+
+.label_input {
+	font-size: 14px;
+	font-family: 宋体;
+	width: 65px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	color: white;
+	background-color: #D2B48C;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.text_field {
+	width: 278px;
+	height: 26.4px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border: 0;
+}
+
+.text_field2 {
+	left: 80;
+	width: 100px;
+	height: 26.3px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border: 0;
+}
+
+#btn_login {
+	font-size: 14px;
+	font-family: 宋体;
+	width: 120px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	color: white;
+	background-color: #3BD9FF;
+	border-radius: 6px;
+	border: 0;
+	float: left;
+}
+
+#forget_pwd {
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+	position: relative;
+	float: left;
+	left:65px;
+	top: 15px;
+}
+
+#regist {
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+	position: relative;
+	float: left;
+	left:110px;
+	top: 15px;
+}
+
+#regist:hover {
+	color :blue;
+	text-decoration : underline;	
+}
+
+#forget_pwd:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+#login_control {
+	padding: 0 28px;
+}
+
+.login-msg.error {
+    border-color: #ffb4a8;
+    background-color: #fef2f2;
+    color: #6C6C6C;
+}
